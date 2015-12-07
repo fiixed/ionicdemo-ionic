@@ -1,0 +1,55 @@
+<ion-view view-title="Ignite">
+  <ion-content>
+    <div class="list card no-margin">
+      <!-- <div class="item text-center">
+        <h1>Today's Weather</h1>
+      </div> -->
+      <div class="item item-body no-padding">
+      <a class='item advanced-background no-padding' ng-repeat="session in sessions" href="#/app/sessions/{{session.id}}">
+
+        <img class="full" src="{{session.imgUrl}}">
+      </a>
+
+<!--
+          <div>
+            <a href="#"><img class="full" src="img/Feed1.jpg"></a>
+          </div>
+          <div>
+            <a href="#"><img class="full" src="img/Feed2.jpg"></a>
+          </div>
+          <div>
+            <a href="#"><img class="full" src="img/Feed3.jpg"></a>
+          </div>
+          <div>
+            <a href="#"><img class="full" src="img/Feed4.jpg"></a>
+          </div>
+ -->
+
+      </div>
+      <!-- <div class="item tabs tabs-secondary tabs-icon-left">
+        <a class="tab-item" href="#">
+          <i class="icon ion-thumbsup"></i> Like
+        </a>
+        <a class="tab-item" href="#">
+          <i class="icon ion-chatbox"></i> Comment
+        </a>
+        <a class ="tab-item" href="#">
+          <i class="icon ion-share"></i> Share
+        </a>
+      </div> -->
+    </div>
+
+
+
+    <!-- <ion-list>
+      <a class='item advanced-background' ng-repeat="session in sessions" href="#/app/sessions/{{session.id}}">
+
+          <p class='advanced-background-title'> {{session.title}}</p>
+          <p class='advanced-background-subtitle'>
+              {{session.date}}</br>
+              {{session.time}}
+          </p>
+      </a>
+    </ion-list> -->
+  </ion-content>
+</ion-view>
